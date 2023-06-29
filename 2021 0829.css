@@ -1,0 +1,125 @@
+/*수평 내비게이션 바*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li {
+	display: block;
+	float: left;
+	background-color: cyan;
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 2px;
+}
+li:hover {
+	background-color: #fff;
+}
+#sub_menu2 {
+	display: none;
+}
+a {
+	text-decoration: none;
+}
+ul > li:nth-child(2):hover > #sub_menu2 {
+	display: block;
+}
+ul#first > li:nth-child(2):hover > a {
+	background-color: darkblue;
+	color: white;
+	display: block;
+}
+
+
+/*수직 내비게이션 바*/
+/*ul {
+	background-color: darkblue;
+	color: white;
+	list-style-type: none;
+	padding-left: 5px;
+	width: 130px;
+	font-size: 1rem;
+}
+li {
+	padding-bottom: 5px;
+}
+li:nth-child(1) {
+	padding-top: 5px;
+}
+li:hover {
+	background-color: lightcyan;
+	color: darkblue;
+	font-weight: bold;
+}*/
+
+
+
+
+
+/* 버튼 생성 */
+/*.btn {
+	text-decoration: none;
+	background-color: cyan;
+	border: none;
+	padding: 10px 20px;
+	color: black;
+	font-size: 14pt;
+	width: 150px;
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+}
+.btn:hover {
+	background-color: orange;
+}
+.btn:active {
+	color: #fff;
+}*/
+
+
+/* 동위 선택자 */
+/*div#first {
+	border: 1px solid orange;
+}
+div#second {
+	border: 1px solid black;
+	margin-left: 50px;
+}*/
+/*p ~ span {
+	color: red;
+}*/
+/*p:nth-of-type(1) + span {
+	color: blue;
+}*/
+/*div ~ p {
+	color: red;
+}*/
+/*div + p {
+	color: blue;
+}*/
+
+/* 구조 의사 클래스 */
+/*div#first {
+	border: 1px solid orange;
+}
+div#second {
+	border: 1px solid black;
+	margin-left: 50px;
+}*/
+/*p:nth-child(2n+1) {
+	color: red;
+}*/
+
+/*p:nth-of-type(2n) {
+	color: blue;
+}*/
+
+/*p:first-child {
+	color: red;
+}
+
+p:first-of-type {
+	color: blue;
+}*/

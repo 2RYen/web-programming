@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+
+
+	/*1. 박스 모델, inline vs block*/
+	/** { margin: 0; padding: 0; }
+	html {
+		border: 1px solid gray;
+	}
+	body {
+		border: 1px solid blue;
+	}
+	h1,p,span,a {
+		border: 1px solid tomato;
+	}*/
+
+	/*2. 마진 겹친 현상 #1*/
+	/*h1 { border: 1px solid tomato; }*/
+
+	/*2. 마진 겹침 현상 #2*/
+	/*div {
+		border: 1px solid tomato;
+	}
+	#parent {
+		height: 100px;
+		margin: 50px;
+	}
+	#child {
+		background-color: yellow;
+		margin: 20px;
+	}*/
+
+	/*3. static vs relative*/
+	div {
+		border: 5px solid tomato;
+		margin: 10px;
+		padding: 10px;
+	}
+	body,span { border: 1px solid pink; }
+	#me {
+		position: relative;
+		left: 20px;
+		top: 0;
+	}
+
+	/*4. absolute : 부모로 부터 고립...*/
+	/*div {
+		border: 1px dotted tomato;
+		/*position: absolute;
+		left: 0px;
+		top: 0;*/
+	/*}
+	span,#child {
+		position: absolute;
+		background-color: darkgray; 
+		left: 0;
+		top: 0;
+	}
+	#parent {
+		border: 1px solid blue;
+		position: relative;
+	}*/
+	/*4. fix #3*/
+	/*div {
+		border: 5px solid tomato;
+	}
+	#other {
+		height: 10000px;
+	}
+	#fix {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		background-color: tomato;
+		color: white;
+		width: 100%;
+		text-align: center;
+	}*/
+	</style>
+</heaad>
+<body>
+	
+	<!-- 4. fix #3 -->
+	<!-- <div id="fix">정기주차 모집</div>
+	<div id="parent">
+		<div>child</div>
+		<div id="child">Hello world!</div>
+	</div>
+	<div id="other">나머지...</div> -->
+
+	<!-- 4. absolute : 부모로 부터 고립... -->
+	<!-- <div>other</div>
+	<div id="parent">
+		<div>child</div>
+		<div id="child">Hello world!</div>
+	</div> -->
+	
+	<!-- 3. static vs relative -->
+	<span>Hello</span>
+	<div id="other">other</div>
+	<div id="parent">
+		<span>parent</span>
+		<div id="me">me</div>
+	</div>
+
+	<!-- 2. 마진 겹침 현상 #2 -->
+	<!-- <div id="parent">
+		부모...
+		<div id="child">
+			자식...
+		</div>
+	</div> -->
+
+	<!-- 2. 마진 겹친 현상 #1 -->
+	<!-- <h1>Hello world!</h1>
+	<h1>Hello world!</h1> -->
+
+	 <!-- 1. 박스 모델, inline vs block -->
+	<!-- <p>Hello world!</p>
+	<h1>Hello world!</h1>
+	<span>정기주차 모집</span>
+	<a href="#">네이버</a> -->
+</body>
+</html>
