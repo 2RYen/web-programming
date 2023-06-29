@@ -1,0 +1,9 @@
+.parent {
+    background-color: royalblue;
+}
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    /*float: left;*/
+}

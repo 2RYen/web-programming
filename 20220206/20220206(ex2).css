@@ -1,0 +1,20 @@
+ul {
+  list-style: num;
+}
+ul li.HOT::before {
+  content: 'HOT';
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 0 4px;
+  margin-right: 5px;
+}
+ul li.NEW::after {
+  content: 'NEW';
+  background-color: rgb(0, 110, 173);
+  color: white;
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 0 4px;
+}

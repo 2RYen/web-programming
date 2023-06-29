@@ -1,0 +1,14 @@
+ul {
+  list-style: none;
+}
+ul li::before {
+  content: '@';
+  color: rgb(3, 175, 243);
+  margin: 5px;
+}
+ul li.disabled::after {
+  content: '주문불가';
+  color: red;
+  font-size: 15px;
+  margin: 5px;
+}

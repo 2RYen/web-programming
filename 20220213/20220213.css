@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* ul {
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid red;
+} */
+ul li {
+  /* border: 1px solid blue; */
+  margin: 5px;
+}
+input[type=checkbox] {
+  display: none;
+}
+label::before {
+  display: inline-block;
+  content: '\f00c';
+  font-family: 'fontawesome';
+  background-color: white;
+  width: 13px;
+  height: 13px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-right: 3px;
+  color: white;
+  font-size: 12px;
+}
+input[id=check1]:checked + label::before,
+input[id=check2]:checked + label::before,
+input[id=check3]:checked + label::before,
+input[id=check4]:checked + label::before {
+  background-color: crimson;
+}
+
+
+/* input[id=check1]:checked + label::before {
+  background-color: crimson;
+}
+input[id=check2]:checked + label::before {
+  background-color: crimson;
+}
+input[id=check3]:checked + label::before {
+  background-color: crimson;
+}
+input[id=check4]:checked + label::before {
+  background-color: crimson;
+} */

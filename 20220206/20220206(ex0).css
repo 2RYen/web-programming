@@ -1,0 +1,67 @@
+ul {
+  /* border: 1px solid red; */
+  list-style: none;
+  padding: 0;
+  width: 150px;
+}
+ul li {
+  background-color: darkblue;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+ul li:hover {
+  background-color: rgba(0, 0, 139, 0.6);
+  cursor: pointer;
+}
+
+
+
+div.first {
+  /* border: 1px solid red; */
+  width: 150px;
+}
+div.first a {
+  /* border: 1px solid blue; */
+  display: block;
+  text-decoration: none;
+  background-color: darkblue;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+div.first a:hover {
+  background-color: rgba(0, 0, 139, 0.6);
+}
+
+/* div.second {
+  border: 1px solid red;
+}
+div.second a {
+  border: 1px solid blue;
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  background-color: aqua;
+  padding: 10px 0;
+  padding: 6px;
+  box-sizing: border-box;
+} */
+
+div.second a {
+  /* border: 1px solid blue; */
+  display: inline-block;
+  float: left;
+  margin-right: 1px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  background-color: aqua;
+  padding: 10px 0;
+  /* padding: 6px;
+  box-sizing: border-box; */
+}
+div.second a:hover {
+  background-color: rgba(0, 255, 255, 0.5);
+}

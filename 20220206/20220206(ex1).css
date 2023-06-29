@@ -1,0 +1,37 @@
+body {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+div {
+  border: 1px solid darkblue;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+span::before {
+  content: '01';
+  /* border: 1px solid blue; */
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: royalblue;
+  color: white;
+  font-size: 14px;
+  margin: 5px;
+}
+span::after {
+  content: 'update';
+  /* border: 1px solid blue; */
+  display: inline-block;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  margin: 5px;
+  padding: 0 2px;
+}

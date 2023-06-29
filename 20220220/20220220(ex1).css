@@ -1,0 +1,36 @@
+body {
+  background-color: royalblue;
+}
+a {
+  text-decoration: none;
+}
+.gnb {
+  position: absolute;
+  top: 50%;
+  left: 60px;
+  transform: translateY(-50%);
+}
+.gnb a {
+  color: white;
+  font-size: 40px;
+  display: block;
+  /* border: 1px solid red; */
+  margin: 20px 0;
+  opacity: 1;
+  transition: .5s;
+}
+.gnb:hover a {
+  opacity: 0.3;
+}
+.gnb a:hover {
+  opacity: 1;
+}
+.gnb a:before {
+  content: '\f105';
+  font-family: 'fontawesome';
+  opacity: 0;
+  margin-right: 10px;
+}
+.gnb a:hover::before {
+  opacity: 1;
+}

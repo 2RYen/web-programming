@@ -1,0 +1,35 @@
+/* body {
+    font-size: 12pt;
+    font-family: '굴림';
+    font-weight: bold;
+}
+div, p, ul, li {
+    border: 1px solid lightblue;
+    padding: 5px;
+}
+li.select {
+    background-color: #ccc;
+} */
+
+
+table {
+    width: 400px;
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+}
+td {
+    border: 1px dotted black;
+    width: 100px;
+}
+
+.type1 {
+    text-align: center;
+    font-weight: bold;
+    background-color: yellow;
+    border: 1px solid red;
+}
+.type2 {
+    text-align: center;
+    font-weight: bold;
+    background-color: lightblue;
+}

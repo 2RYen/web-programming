@@ -1,0 +1,21 @@
+/* 노드 생성, 이동, 삭제 */
+/* .selected {
+  color: red;
+
+} */
+
+/* Quiz1 */
+input {
+  display: inline-block;
+  height: 25px;
+  margin: 1px;
+}
+input#row, input#column {
+  width: 60px;
+  text-align: center;
+}
+div.input {
+  display: flex;
+  align-items: center;
+
+}

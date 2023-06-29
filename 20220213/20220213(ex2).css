@@ -1,0 +1,17 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: royalblue;
+  transition: 2s;
+  /* transition: width 2s 1s linear; */
+  /* transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+  transition-property: width; */
+}
+.box:active {
+  /* transform: translate(200px,200px) scale(1.5) */
+  /* transform: rotate(45deg); */
+  transform: skew(30deg);
+  background-color: crimson;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./20211219.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./20211219.js"></script>
+</head>
+<body>
+    <!--
+    <h1>1. Hello</h1>
+    <h1 class="team1">2. Hello</h1>
+    <div>
+        <h1 class="team1">3. Hello</h1>
+    </div>
+    <img id="image" src="http://placehold.it/100x100" alt="제주도"></img>
+    -->
+
+    <!-- 회원가입 양식 작성하기 -->
+    <form action="test.html" method="get" onsubmit="return check()">
+        <fieldset>
+            <legend>필수정보</legend>
+            <table>
+                <tr>
+                    <td><label for="userName">이름</label></td>
+                    <td>
+                        <input type="text" id="userName" name="userName" placeholder="이름을 입력하세요">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="pwd1">비밀번호</label></td>
+                    <td>
+                        <input type="password" id="pwd1" name="pwd">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="pwd2">비밀번호(확인)</label></td>
+                    <td>
+                        <input type="password" id="pwd2">
+                        <!-- input[type="password" id="pwd"] -->
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="sex">성별</label></td>
+                    <td>
+                        <input type="radio" id="man" name="sex" value="man">남
+                        <input type="radio" id="woman" name="sex" value="woman">여
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="tell">핸드폰</label></td>
+                    <td>
+                        <input type="text" id="tell" size="3" maxlength="3" name="tell"> -
+                        <input type="text" id="tell2" size="4" maxlength="4" name="tell2"> -
+                        <input type="text" id="tell3" size="4" maxlength="4" name="tell3">
+                    </td>
+                </tr>
+                <tr>
+                    <td>학과</td>
+                    <td>
+                        <select name="department" id="department">
+                            <option value="">--선택하세요--</option>
+                            <option value="컴공과">컴공과</option>
+                            <option value="의예과">의예과</option>
+                            <option value="연영과">연영과</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>부가정보</legend>
+            <!-- table>tr*4>td*2 -->
+            <table>
+                <tr>
+                    <td>취미</td>
+                    <td>
+                        <input type="checkbox" id="soccer" name="hobby" value="축구">축구
+                        <input type="checkbox" id="basketball" name="hobby" value="농구">농구
+                        <input type="checkbox" id="baseball" name="hobby" value="야구">야구
+                    </td>
+                </tr>
+                <tr>
+                    <td>생일</td>
+                    <td>
+                        <input type="date" name="birthday">
+                    </td>
+                </tr>
+                <tr>
+                    <td>선호하는 색상</td>
+                    <td>
+                        <input type="color" name="color">
+                    </td>
+                </tr>
+                <tr>
+                    <td>등교시간</td>
+                    <td>
+                        <input type="time" name="schoolTime">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <table>
+                <tr>
+                    <td>
+                        <input type="submit" value="전송">
+                        <input type="reset" value="다시 작성">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <!-- <input type="text" name="username">
+        <input type="submit" value="전송"> -->
+    </form>
+
+</body>
+</html>

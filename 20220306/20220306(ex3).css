@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.tab-inner {
+  /* border: 1px solid red; */
+  width: 300px;
+  height: 350px;
+}
+.tab-inner input[name=tabMenu] {
+  display: none;
+}
+.tab-inner .slide {
+  /* border: 1px solid blue; */
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+.tab-inner .slide .slide-inner {
+  width: 900px;
+  font-size: 0;
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  transition: .5s;
+}
+.tab-inner .btn {
+  /* border: 1px solid orange; */
+  text-align: center;
+  margin-top: 15px;
+}
+.tab-inner .btn label {
+  width: 20px;
+  height: 20px;
+  background-color: lightgrey;
+  display: inline-block;
+  border-radius: 50%;
+}
+.tab-inner input[id=tab1]:checked ~ .btn label[for=tab1],
+.tab-inner input[id=tab2]:checked ~ .btn label[for=tab2],
+.tab-inner input[id=tab3]:checked ~ .btn label[for=tab3] {
+  background-color: crimson;
+}
+.tab-inner input[id=tab1]:checked ~ .slide .slide-inner {
+  left: 0;
+}
+.tab-inner input[id=tab2]:checked ~ .slide .slide-inner {
+  left: -300px;
+}
+.tab-inner input[id=tab3]:checked ~ .slide .slide-inner {
+  left: -600px;
+}
