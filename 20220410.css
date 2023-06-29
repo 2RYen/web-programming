@@ -1,0 +1,56 @@
+/* .container {
+  border: 1px solid red;
+} */
+/* .mytitle1 {
+  font-size: 30px;
+  text-shadow: 10px 10px 10px black;
+} */
+.mytitle2 {
+  font-size: 20px;
+  
+}
+.color {
+  color: black;
+}
+.color2 {
+  text-shadow: 10px 10px 10px black;
+}
+h2.post-title {
+  margin-top: 50px;
+}
+.navbar-brand {
+  font-size: 30px;
+}
+.navbar-nav {
+  font-size: 50px;
+}
+span.carousel-control-prev-icon,
+span.carousel-control-next-icon {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 4rem;
+  /* background-color: red; */
+}
+div.site-heading h1{
+  font-family: 'Henny Penny', cursive;
+  font-size: 50px;
+}
+div.myclass {
+  font-family: 'Henny Penny', cursive;
+  font-size: 30px;
+}
+.myImg1 {
+  width: 100%;
+  height: 100%;
+  background: no-repeat center/100% url('./images/students-918296_1920.jpg');
+  border-radius: 50%;
+  box-shadow: inset 0 0 50px white;
+  border : none;
+}
+.myFont1 {
+  font-family: 'Henny Penny', cursive;
+  font-size: 30px;
+  font-style: italic;
+}
+.myRow1 {
+  margin-top: 40px;
+}
