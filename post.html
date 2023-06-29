@@ -9,10 +9,13 @@
         <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
         <link rel="icon" type="image/x-icon" href="./schools.png"/>
         <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link rel="stylesheet" href="./20220410.css">
@@ -37,9 +40,9 @@
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('assets/img/post-bg.jpg')">
+        <header class="masthead" style="background-image: url('assets/img/003.png')">
             <div class="container position-relative px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="row gx-5 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="post-heading">
                             <h1>3학년 3반 시간표</h1>
@@ -55,7 +58,7 @@
                     <table class="table">
                         <thead>
                           <tr>
-                            <th scope="col">교시</th>
+                            <th scope="col">요일</th>
                             <th scope="col">월</th>
                             <th scope="col">화</th>
                             <th scope="col">수</th>
@@ -65,56 +68,56 @@
                         </thead>
                         <tbody>
                           <tr>
-                            <th scope="row">1</th>
+                            <th scope="row">1교시</th>
                             <td>화작</td>
-                            <td>윤사</td>
+                            <td>윤사<span id="move2"></span></td>
                             <td>확통</td>
-                            <td>윤사</td>
+                            <td>윤사<span id="move2"></span></td>
                             <td>영독작</td>
                           </tr>
                           <tr>
-                            <th scope="row">2</th>
-                            <td>한지</td>
+                            <th scope="row">2교시</th>
+                            <td>한지<span id="move2"></span></td>
                             <td>체육</td>
-                            <td>윤사</td>
+                            <td>윤사<span id="move2"></span></td>
                             <td>화작</td>
                             <td>확통</td>
                           </tr>
                           <tr>
-                            <th scope="row">3</th>
+                            <th scope="row">3교시</th>
                             <td>영독작</td>
                             <td>생과</td>
-                            <td>한지</td>
-                            <td>체전실</td>
-                            <td>한지</td>
+                            <td>한지<span id="move2"></span></td>
+                            <td>체전실<span id="move2"></span></td>
+                            <td>한지<span id="move2"></span></td>
                           </tr>
                           <tr>
-                            <th scope="row">4</th>
-                            <td>사문</td>
-                            <td>사문</td>
+                            <th scope="row">4교시</th>
+                            <td>사문<span id="move2"></span></td>
+                            <td>사문<span id="move2"></span></td>
                             <td>화작</td>
                             <td>생과</td>
-                            <td>일본어</td>
+                            <td>일본어<span id="move2"></span></td>
                           </tr>
                           <tr>
-                            <th scope="row">5</th>
-                            <td>일본어</td>
+                            <th scope="row">5교시</th>
+                            <td>일본어<span id="move2"></span></td>
                             <td>심리학</td>
                             <td>진로</td>
                             <td>민시</td>
                             <td>창체</td>
                           </tr>
                           <tr>
-                            <th scope="row">6</th>
+                            <th scope="row">6교시</th>
                             <td>생과</td>
-                            <td>체전실</td>
+                            <td>체전실<span id="move2"></span></td>
                             <td>체육</td>
-                            <td>사문</td>
+                            <td>사문<span id="move2"></span></td>
                             <td>창체</td>
                           </tr>
                           <tr>
-                            <th scope="row">7</th>
-                            <td>체전실</td>
+                            <th scope="row">7교시</th>
+                            <td>체전실<span id="move2"></span></td>
                             <td>영독작</td>
                             <td></td>
                             <td>확통</td>
@@ -133,8 +136,9 @@
                         <ul class="list-inline text-center">
                         </ul>
                         <p>
-                            *이 시간표는 '학급시간표'이고 학생들은 개인별 시간표에 맞춰 수업을 들으면 됩니다.*
+                          <i class="fa fa-caret-right" aria-hidden="true"></i> 이 시간표는 '학급시간표'이고 학생들은 '개인별 시간표'에 맞춰 수업을 들으면 됩니다.
                         </p>
+                        <span id="move2">은 '이동수업' 시간 입니다.</span>
                 </div>
             </div>
         </footer>

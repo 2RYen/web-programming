@@ -7,7 +7,6 @@
 } */
 .mytitle2 {
   font-size: 20px;
-  
 }
 .color {
   color: black;
@@ -15,7 +14,18 @@
 .color2 {
   text-shadow: 10px 10px 10px black;
 }
-h2.post-title {
+.color3 {
+  color: rgb(137, 248, 137);
+  text-shadow: 2px 3px 3px black;
+}
+.color4 {
+  color: rgb(202, 249, 249);
+  text-shadow: 2px 2px 1px black;
+}
+
+h2.post-title,
+h3.post-subtitle {
+  font-family: 'Gamja Flower', cursive;
   margin-top: 50px;
 }
 .navbar-brand {
@@ -26,31 +36,67 @@ h2.post-title {
 }
 span.carousel-control-prev-icon,
 span.carousel-control-next-icon {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgb(16, 253, 4);
   font-size: 4rem;
   /* background-color: red; */
 }
-div.site-heading h1{
-  font-family: 'Henny Penny', cursive;
+div.site-heading h1,
+div.page-heading h1,
+div.post-heading h1 {
+  font-family: 'Nanum Pen Script', cursive;
   font-size: 50px;
 }
 div.myclass {
-  font-family: 'Henny Penny', cursive;
+  font-family:'Gamja Flower', cursive;
   font-size: 30px;
 }
 .myImg1 {
   width: 100%;
   height: 100%;
-  background: no-repeat center/100% url('./images/students-918296_1920.jpg');
+  background: no-repeat center/100% url('./welcome-sign-g5465d7f01_1920.jpg');
+  border-radius: 50%;
+  box-shadow: inset 0 0 50px white;
+  border : none;
+}
+.myImg2 {
+  width: 100%;
+  height: 100%;
+  background: no-repeat center/100% url('./친구.png');
   border-radius: 50%;
   box-shadow: inset 0 0 50px white;
   border : none;
 }
 .myFont1 {
-  font-family: 'Henny Penny', cursive;
+  font-family: 'Nanum Pen Script', cursive;
   font-size: 30px;
-  font-style: italic;
 }
 .myRow1 {
   margin-top: 40px;
 }
+.myRow {
+  background-color: rgba(211, 211, 211, 0.2);
+}
+/* .myFontawome:hover {
+  cursor: pointer;
+} */
+/* .myH1 {
+  font-size: 20px !important;
+} */
+/* #move::before {
+  content: '\f069';
+  font-family: fontawesome;
+  color: red;
+} */
+
+#move2::before {
+  content: '\f069';
+  font-family: fontawesome;
+  color: pink;
+}
+
+/* <i class="fa fa-asterisk" aria-hidden="true"></i> */
+/* .sp::after {
+  content: '\f255';
+  font-family: 'fontawesome';
+} */
+
