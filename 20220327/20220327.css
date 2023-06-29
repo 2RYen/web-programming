@@ -1,0 +1,34 @@
+
+
+
+.container2 {
+  width: 900px;
+  padding: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.h2 {
+  color: royalblue;
+}
+p {
+  font-size: 14px;
+}
+.myHr {
+  height: 3px;
+  border: 2px solid royalblue;
+}
+.myBtn {
+  background-color: lightgrey;
+  border: 1px solid darkgoldenrod;
+  color: darkgoldenrod;
+}
+.col-3 {
+  font-weight: bold;
+}
+.star {
+  color: tomato;
+}
+.explain {
+  font-size: 14px;
+}
