@@ -1,0 +1,10 @@
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.nlist{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}

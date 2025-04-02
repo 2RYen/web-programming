@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "deliveryPeo";
+    src: url("/fonts/BMHANNAProOTF.otf");
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+}
+
+.gmap_background{
+    background-color: #D5DFE8;
+}
+
+#glist{
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}

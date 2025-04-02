@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./exhibition.html"> -->
+     <link rel="stylesheet" href="./20240927.css">
+    <title>구단 추천 결과</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
+    </style>
+</head>
+<body>
+    <h1 post_title>당신에게 추천하는 구단은 {{ team_name }} 입니다!</h1 post_title>
+    <img src="{{ url_for('static', filename='images/' + team_image) }}" alt="{{ team_name }}">
+    <p>{{ team_desc }}</p>
+    <a href="/">다시 설문하기</a>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body {
+  background-color: #A7D9B3;
+  /* margin: 0; */
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+  /* border: 2px solid #2980b9; */
+  margin-top: 3%;
+  border-radius: 70px;
+  /* width: 100px; */
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  line-height: 86px;
+  width: calc(1280px - 300px);
+}
+
+.inner {
+  position: relative;
+  width: 600px;
+  height: 40px;
+  margin: 20px auto;
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+
+input {
+  width: 90%;
+  height: 100%;
+  border-color: #bdc6c1;
+  border: 0px;
+  font-size: 16px;
+  outline: none;
+}
+
+.searching {
+  position: absolute;
+  left: 10px;
+  top: 20%;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+.icon_ect {
+  position: absolute;
+  right: 10px;
+  top: 20%;
+}
+
+.fa-keyboard {
+  margin-right: 10px;
+}
+
+.weegle_inner {
+  width: 160px;
+  height: 40px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 0px;
+  vertical-align: middle;
+}
+
+.weegle_inner:hover {
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+

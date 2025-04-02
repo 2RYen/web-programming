@@ -1,0 +1,61 @@
+.myRow {
+  background-color: rgba(211, 211, 211, 0.2);
+  margin: 20%;
+}
+
+.myRow1 {
+  margin-top: 40px;
+}
+
+.myImg1 {
+  width: 200px;
+  height: 200px;
+  background: no-repeat center/100% url('./image/g11.jpg');
+  border: none;
+}
+
+.myImg2 {
+  width: 200px;
+  height: 200px;
+  background: no-repeat center/100% url('./image/KakaoTalk_20231023_163736978_14.jpg');
+  border: none;
+}
+
+.myImg3 {
+  width: 200px;
+  height: 200px;
+  background:no-repeat center/100% url('./image/g10_16.png');
+  border: none;
+}
+
+.myImg5 {
+  width: 200px;
+  height: 200px;
+  background:no-repeat center/100% url('./image/사회경영2관.png');
+  border: none;
+}
+
+.myImg4 {
+  width: 200px;
+  height: 200px;
+  background: no-repeat center/100% url('./image/학군단.png');
+  border: none;
+}
+
+.carousel-inner {
+  width: 1400px;
+}
+
+
+/* .carousel-item {
+  width: 1000px;
+} */
+
+/* .post-title {
+  font-size: 15px;
+} */
+
+h4.post-title,
+h4.post-subtitle {
+  font-family: 'Bagel Fat One', cursive;
+}
